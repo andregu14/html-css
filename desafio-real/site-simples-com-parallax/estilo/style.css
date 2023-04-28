@@ -10,7 +10,7 @@ html, body {
 }
 
 header {
-    background-color: rgba(48, 102, 48, 0.782);
+    background-color: #35660F;
     text-indent: 2em;
     padding: 10px;
     margin-bottom: 100px;
@@ -22,13 +22,13 @@ main {
 
 
 p#menor1 {
-    border: 1px dashed green;
+
     color: white;
     max-height: fit-content;
     min-width: 400px;
     max-width: 650px;
-    border: 1px dashed green;
-    background-color: rgba(48, 102, 48, 0.782);
+
+    background-color: #56664aed;
     display: inline-block;
     font-size: 1em;
     padding: 10px;
@@ -42,8 +42,8 @@ article#parallax1 {
     width: auto;
     min-height: 500px;
     max-height: 600px;
-    border: 1px dashed black;
-    background-color: black;
+
+
 
     background-image: url(../imagens/paisagem01.jpg);
     background-position: right bottom;
@@ -52,28 +52,42 @@ article#parallax1 {
 }
 
 div.externo {
-    margin-top: 100px;
+    margin-top: 60vh;
     position: relative;
 }
 
-div.externo > p {
-    border: 1px dashed green;
+div.externo {
 
-    width: 50vw;
+    height: fit-content;
+}
+
+div.externo > p {
+    max-height: fit-content;
+    width: 40vw;
+
+
+    display: inline-block;
+
+    line-height: 1.7em;
+    text-align: justify;
+    padding-left: 25px;
+    padding-top: 50px;
 }
 
 article#parallax2 {
+    display: inline-block;
 
-    border: 1px dashed black;
-    height: 100px;
-    width: 100px;
 
-    background-color: black;
+    min-height: 500px;
+    max-height: 250px;
+    width: 42vw;
+
+
     background-image: url(../imagens/background2.jpg);
     background-size: cover;
     background-attachment: fixed;
-
+    background-position: center center;
     position: absolute;
-    left: 75vw;
+    left: 50vw;
     
 }
