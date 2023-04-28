@@ -1,31 +1,79 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 html, body {
     background-color: white;
 }
 
 header {
     background-color: rgba(48, 102, 48, 0.782);
+    text-indent: 2em;
+    padding: 10px;
+    margin-bottom: 100px;
 }
 
 main {
     height: 200vh;
 }
 
+
 p#menor1 {
     border: 1px dashed green;
-    display: inline-block;
-    width: 25vw;
     color: white;
+    max-height: fit-content;
+    min-width: 400px;
+    max-width: 650px;
+    border: 1px dashed green;
+    background-color: rgba(48, 102, 48, 0.782);
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px;
+    line-height: 1.5em;
+    text-indent: 1em;
+    text-align: justify;
+    margin-top: 10vh;
 }
 
 article#parallax1 {
-    width: 100vw;
-    height: 50vh;
+    width: auto;
+    min-height: 500px;
+    max-height: 600px;
     border: 1px dashed black;
+    background-color: black;
 
     background-image: url(../imagens/paisagem01.jpg);
     background-position: right bottom;
     background-size: cover;
     background-attachment: fixed;
+}
+
+div.externo {
+    margin-top: 100px;
+    position: relative;
+}
+
+div.externo > p {
+    border: 1px dashed green;
+
+    width: 50vw;
+}
+
+article#parallax2 {
+
+    border: 1px dashed black;
+    height: 100px;
+    width: 100px;
+
+    background-color: black;
+    background-image: url(../imagens/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: absolute;
+    left: 75vw;
+    
 }
