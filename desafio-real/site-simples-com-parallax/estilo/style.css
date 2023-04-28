@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+html, body {
+    background-color: white;
+}
+
+header {
+    background-color: rgba(48, 102, 48, 0.782);
+}
+
+main {
+    height: 200vh;
+}
+
+p#menor1 {
+    border: 1px dashed green;
+    display: inline-block;
+    width: 25vw;
+    color: white;
+}
+
+article#parallax1 {
+    width: 100vw;
+    height: 50vh;
+    border: 1px dashed black;
+
+    background-image: url(../imagens/paisagem01.jpg);
+    background-position: right bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
